@@ -1,0 +1,81 @@
+*{
+    color: green;
+    text-align: center;
+    width: auto;
+    /* align-self: center;
+    align-items: center;
+    align-content: center; */
+
+}
+#first{
+    border: 1px solid black;
+}
+#second{
+    border: 1px solid black;
+}
+.add{
+    color: black;
+    
+    border: solid green 2px;
+    width: auto;
+    align-self: center;
+
+}
+.add:hover{
+    color: yellow;
+    background-color: green;
+}
+
+.sub{
+    color: black;
+   
+    border: solid red 2px;
+    width: auto;
+    align-self: center;
+}
+
+.sub:hover{
+    color: yellow;
+    background-color: red;
+}
+.mul{
+    color: black;
+    border: solid blue 2px;
+    width: auto;
+    align-self: center;
+}
+.mul:hover{
+    color: yellow;
+    background-color: blue;
+}
+.divi{
+    color: black;
+    border: solid goldenrod 2px;
+    width: auto;
+    align-self: center;
+}
+.divi:hover{
+    color: yellow;
+    background-color: goldenrod;
+}
+
+
+.box{
+   display: flex;
+  flex-direction: column;
+  
+  align-items: center; /* Keeps buttons aligned */
+  border: 2px solid black; /* Adds an outer border */
+  padding: 10px; 
+
+  gap: 5px;
+  height: 500px;
+  width: 200px;
+  align-content: center;
+  align-self: center;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
