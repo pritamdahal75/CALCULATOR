@@ -34,9 +34,9 @@ else{
 
 
 document.getElementById('add').addEventListener('click', ()=> {calculate('add')})
-document.getElementById('add').addEventListener('click', ()=> {calculate('add')})
-document.getElementById('add').addEventListener('click', ()=> {calculate('add')})
-document.getElementById('add').addEventListener('click', ()=> {calculate('add')})
+document.getElementById('sub').addEventListener('click', ()=> {calculate('sub')})
+document.getElementById('mul').addEventListener('click', ()=> {calculate('mul')})
+document.getElementById('divi').addEventListener('click', ()=> {calculate('divi')})
 
 document.getElementById('clear').addEventListener('click', function() {
     document.getElementById('first').value = '';  
